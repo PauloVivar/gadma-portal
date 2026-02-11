@@ -15,15 +15,16 @@ export function HeroSection2() {
           {/* Section Title */}
           <div className="section-title-gap-xl flex flex-col">
             {/* Tagline */}
-            <Tagline>MindSpace</Tagline>
+            <Tagline>GAD MUNICIPAL DE AZOGUES</Tagline>
             {/* Main Heading */}
             <h1 id="hero-heading" className="heading-xl">
-              Never forget what was said in a meeting again
+              Bienvenido a nuestro portal web del Gad Municipal de Azogues
             </h1>
             {/* Description */}
             <p className="text-muted-foreground text-base lg:text-lg">
-              AI that joins, transcribes, and transforms your meetings into
-              structured knowledge
+              En este portal encontraras información sobre los trámites
+              municipales, servicios, noticias y eventos relacionados con el GAD
+              Municipal de Azogues.
             </p>
           </div>
 
@@ -34,7 +35,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Deal progress tracking
+                Información sobre el registro ciudadano
               </span>
             </div>
 
@@ -43,7 +44,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Customer sentiment analysis
+                Dudas y soporte sobre trámites municipales
               </span>
             </div>
 
@@ -52,16 +53,16 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Automatic CRM updates
+                Seguimiento de trámites en línea
               </span>
             </div>
           </div>
 
           {/* CTA Buttons */}
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button>Try for free</Button>
+            <Button>Ver Información</Button>
             <Button variant="ghost">
-              How it works
+              Ir
               <ArrowRight />
             </Button>
           </div>
@@ -71,7 +72,7 @@ export function HeroSection2() {
         <div className="w-full flex-1">
           <AspectRatio ratio={1 / 1}>
             <img
-              src="/Hero.png"
+              src="/public/Hero.png"
               alt="Hero visual"
               className="h-full w-full rounded-xl object-cover"
             />

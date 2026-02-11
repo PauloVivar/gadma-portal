@@ -8,7 +8,7 @@ import { useState } from 'react'
 const MENU_ITEMS = [
   { label: 'Features', href: '#features' },
   { label: 'How it works', href: '#how-it-works' },
-  { label: 'Docs', href: 'https://www.shadcndesign.com/pro-blocks' },
+  // { label: 'Docs', href: 'https://www.shadcndesign.com/pro-blocks' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' }
 ] as const
@@ -45,7 +45,7 @@ export function LpNavbar1() {
             variant="ghost"
             className="flex size-9 items-center justify-center md:hidden"
             onClick={toggleMenu}
-            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-label={isMenuOpen ? 'Cerrar menu' : 'Abrir menu'}
           >
             {isMenuOpen ? <X /> : <Menu />}
           </Button>
@@ -55,7 +55,7 @@ export function LpNavbar1() {
         <div className="hidden w-full flex-row justify-end gap-5 md:flex">
           <NavMenuItems />
           <a href="#pricing">
-            <Button>Try for free</Button>
+            <Button>Iniciar Sesión</Button>
           </a>
         </div>
 
@@ -64,7 +64,7 @@ export function LpNavbar1() {
           <div className="flex w-full flex-col justify-end gap-5 pb-2.5 md:hidden">
             <NavMenuItems />
             <a href="#pricing">
-              <Button className="w-full">Try for free</Button>
+              <Button className="w-full">Iniciar Sesión</Button>
             </a>
           </div>
         )}
