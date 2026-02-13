@@ -31,33 +31,33 @@ export function Footer1() {
               href="#features"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Features
+              Posts
             </a>
             <a
               href="#how-it-works"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              How it works
+              Primeros Pasos
             </a>
-            <a
+            {/* <a
               href="https://www.shadcndesign.com/pro-blocks"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Docs
-            </a>
+            </a> */}
+            {/* <a
+              href="#pricing"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Pricing
+            </a> */}
             <a
               href="#faq"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               FAQ
-            </a>
-            <a
-              href="#pricing"
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Pricing
             </a>
           </nav>
         </div>
@@ -69,23 +69,14 @@ export function Footer1() {
         <div className="flex w-full flex-col-reverse items-center gap-12 text-sm lg:flex-row lg:justify-between lg:gap-6">
           {/* Copyright Text */}
           <p className="text-muted-foreground text-center lg:text-left">
-            Built with{' '}
+            Built with passion by{' '}
             <a
-              href="https://www.shadcndesign.com/pro-blocks"
+              href="https://enlinea.azogues.gob.ec/"
               className="underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Pro Blocks
-            </a>{' '}
-            by{' '}
-            <a
-              href="https://www.shadcndesign.com/"
-              className="underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              shadcndesign.com
+              Vivaring Corp
             </a>
             . All rights reserved.
           </p>
@@ -96,20 +87,20 @@ export function Footer1() {
             aria-label="Legal links"
           >
             <a
-              href="https://www.shadcndesign.com/pro-blocks"
+              href="https://enlinea.azogues.gob.ec/legal/politica-de-proteccion-de-datos"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Privacy Policy
+              Privacy Policy and Terms of Service
             </a>
             <a
-              href="https://www.shadcndesign.com/pro-blocks"
+              href="https://enlinea.azogues.gob.ec/legal/acuerdo-de-responsabilidad"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Terms of Service
+              Liability Agreement
             </a>
             <a
               href="https://www.shadcndesign.com/pro-blocks"

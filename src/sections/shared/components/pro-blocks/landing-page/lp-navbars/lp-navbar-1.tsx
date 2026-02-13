@@ -6,10 +6,10 @@ import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 const MENU_ITEMS = [
-  { label: 'Features', href: '#features' },
-  { label: 'How it works', href: '#how-it-works' },
+  { label: 'Posts', href: '#features' },
+  { label: 'Primeros Pasos', href: '#how-it-works' },
   // { label: 'Docs', href: 'https://www.shadcndesign.com/pro-blocks' },
-  { label: 'Pricing', href: '#pricing' },
+  // { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' }
 ] as const
 
@@ -54,7 +54,11 @@ export function LpNavbar1() {
         {/* Desktop Navigation */}
         <div className="hidden w-full flex-row justify-end gap-5 md:flex">
           <NavMenuItems />
-          <a href="#pricing">
+          <a
+            href="https://enlinea.azogues.gob.ec/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button>Iniciar Sesión</Button>
           </a>
         </div>

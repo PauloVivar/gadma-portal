@@ -15,16 +15,16 @@ export function HeroSection2() {
           {/* Section Title */}
           <div className="section-title-gap-xl flex flex-col">
             {/* Tagline */}
-            <Tagline>GAD MUNICIPAL DE AZOGUES</Tagline>
+            <Tagline className="bg-red-300">GAD MUNICIPAL DE AZOGUES</Tagline>
             {/* Main Heading */}
             <h1 id="hero-heading" className="heading-xl">
-              Bienvenido a nuestro portal web del Gad Municipal de Azogues
+              Bienvenido al portal web del Gad Municipal de Azogues
             </h1>
             {/* Description */}
             <p className="text-muted-foreground text-base lg:text-lg">
-              En este portal encontraras información sobre los trámites
-              municipales, servicios, noticias y eventos relacionados con el GAD
-              Municipal de Azogues.
+              En este portal encontraras información sobre trámites municipales,
+              servicios, noticias y eventos relacionados con el GAD Municipal de
+              Azogues.
             </p>
           </div>
 
@@ -72,8 +72,8 @@ export function HeroSection2() {
         <div className="w-full flex-1">
           <AspectRatio ratio={1 / 1}>
             <img
-              src="/public/Hero.png"
-              alt="Hero visual"
+              src="/public/san-francisco.jpg"
+              alt="San Francisco"
               className="h-full w-full rounded-xl object-cover"
             />
           </AspectRatio>

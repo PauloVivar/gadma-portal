@@ -8,54 +8,57 @@ export function BentoGrid6() {
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
           {/* Tagline */}
-          <Tagline>Features</Tagline>
+          <Tagline className="bg-red-300">Posts</Tagline>
           {/* Main Heading */}
           <h2 className="heading-lg">
-            Capture, organize, and surface meeting insights
+            A continuación se presentan varios posts relacionados con las
+            características de nuestra plataforma.
           </h2>
         </div>
 
         {/* Feature Grid */}
         <div className="grid grid-cols-1 gap-3 md:gap-6 lg:grid-cols-3 lg:grid-rows-2">
           {/* Wide Feature Card - Top Left */}
-          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl border-none p-0 shadow-none lg:col-span-2">
+          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="/ai-meeting-notes.png"
-              alt="AI Meeting Notes"
+              src="public/plataforma-completa.png"
+              alt="plataforma-completa"
               className="hidden h-auto w-full object-cover md:block md:h-[332px]"
             />
             <img
-              src="/ai-meeting-notes_mobile.png"
-              alt="AI Meeting Notes"
+              src="public/plataforma-completa.png"
+              alt="plataforma-completa-movile"
               className="block h-auto w-full md:hidden"
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                AI Meeting Notes
+                Trámites ciudadanos en línea
               </h3>
               <p className="text-muted-foreground">
-                Automatic summaries with key decisions & action items
+                Gestiona tus consultas y trámites municipales sin filas ni
+                desplazamientos, desde tu hogar o dispositivo móvil.
               </p>
             </CardContent>
           </Card>
           {/* Regular Feature Card - Top Right */}
-          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl border-none p-0 shadow-none lg:col-span-1">
+          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
             <img
-              src="/universal-search.png"
+              src="/public/historial-pagos.png"
               alt="Universal Search"
               className="h-auto w-full object-cover md:h-[332px]"
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Universal Search
+                Pagos en línea seguros
               </h3>
               <p className="text-muted-foreground">
-                Find any discussion across all meetings
+                Los pagos de tasas, impuestos y servicios se realizan de forma
+                segura y confiable a través de la pasarela de pagos PlacetoPay.
               </p>
             </CardContent>
           </Card>
           {/* Regular Feature Card - Bottom Left */}
-          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl border-none p-0 shadow-none lg:col-span-1">
+          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
             <img
               src="/smart-tags.png"
               alt="AI Meeting Notes"
@@ -63,15 +66,17 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Smart Tags
+                Seguridad de tus datos
               </h3>
               <p className="text-muted-foreground">
-                Categorize by project, topic, or participants
+                Azogues en Línea opera con mecanismos de seguridad que protegen
+                tu información personal y sensible durante todo el proceso
+                digital.
               </p>
             </CardContent>
           </Card>
           {/* Wide Feature Card - Bottom Right */}
-          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl border-none p-0 shadow-none lg:col-span-2">
+          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
               src="/team-insights.png"
               alt="Team Insights"
@@ -84,10 +89,12 @@ export function BentoGrid6() {
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
-                Team Insights
+                Estado de tus trámites y pagos
               </h3>
               <p className="text-muted-foreground">
-                Meeting analytics and participation metrics
+                Consulta en tiempo real el estado de tus trámites y pagos, desde
+                la solicitud hasta la resolución final, sin necesidad de visitar
+                una oficina municipal.
               </p>
             </CardContent>
           </Card>

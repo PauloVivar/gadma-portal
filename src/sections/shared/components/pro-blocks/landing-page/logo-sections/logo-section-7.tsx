@@ -45,7 +45,7 @@ export function LogoSection10() {
             <Tagline variant="ghost">
               Se encuentran disponibles varios trámites municipales de los
               Departamentos de Avaluos y Catastros, Control Urbano y
-              Palificación
+              Planificación
             </Tagline>
           </div>
 

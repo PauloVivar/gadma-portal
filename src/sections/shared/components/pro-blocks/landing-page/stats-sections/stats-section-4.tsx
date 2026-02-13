@@ -7,7 +7,7 @@ export function StatsSection4() {
       <div className="container-padding-x container mx-auto">
         <div className="flex flex-col gap-10 md:gap-12">
           <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-            <Tagline>Metrics</Tagline>
+            <Tagline className="bg-red-300">Metrics</Tagline>
             <h2 className="heading-lg text-foreground">Numbers don't lie</h2>
             <p className="text-muted-foreground">
               Add a concise value statement that explains how your metrics

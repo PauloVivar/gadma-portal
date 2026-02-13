@@ -62,7 +62,7 @@ export function PricingSection3() {
           {/* Section Header */}
           <div className="section-title-gap-lg flex max-w-xl flex-col items-center text-center">
             {/* Category Tag */}
-            <Tagline>Pricing</Tagline>
+            <Tagline className="bg-red-300">Pricing</Tagline>
             {/* Main Title */}
             <h2
               id="pricing-section-title-3"

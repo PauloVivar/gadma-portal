@@ -11,14 +11,14 @@ interface TestimonialsSection1Props {
 }
 
 export default function TestimonialsSection1({
-  quote = 'MindSpace is like having a photographic memory for every meeting. We reduced the follow-up emails by 80%.',
-  authorName = 'David Park',
-  authorRole = 'Engineering Manager at TechCorp',
-  avatarSrc = '/DavidPark.png'
+  quote = 'Olvídate de las filas y el papeleo. Con Enlinea Azogues puedes consultar, pagar y gestionar tus trámites desde casa, de forma segura y ágil.',
+  authorName = 'Gad Municipal de Azogues',
+  authorRole = 'Departamento de Sistemas',
+  avatarSrc = '/public/azogues-escudo.svg'
 }: TestimonialsSection1Props) {
   return (
     <section
-      className="dark:bg-background container-padding-x section-padding-y flex flex-col items-center border-b bg-blue-950"
+      className="dark:bg-background container-padding-x section-padding-y flex flex-col items-center border-b bg-red-400"
       aria-labelledby="testimonial-title"
     >
       {/* Content Container */}

@@ -18,15 +18,15 @@ export function FaqSection2() {
           {/* Left Column */}
           <div className="section-title-gap-lg flex flex-1 flex-col">
             {/* Category Tag */}
-            <Tagline>FAQ</Tagline>
+            <Tagline className="bg-red-300">FAQ</Tagline>
             {/* Main Title */}
             <h1 id="faq-heading" className="heading-lg text-foreground">
-              Find answers to our frequently asked questions
+              Encuentre respuestas a preguntas frecuentes
             </h1>
             {/* Section Description */}
             <p className="text-muted-foreground">
-              We've compiled the most important information to help you get the
-              most out of your experience. Can't find what you're looking for?{' '}
+              Hemos recopilado la información más importante para ayudarte a
+              aprovechar al máximo tu experiencia. ¿No encuentras lo que buscas?{' '}
               <a href="#" className="text-primary underline">
                 Contact us.
               </a>
@@ -50,60 +50,62 @@ export function FaqSection2() {
                 {/* FAQ Item 1 */}
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="text-left">
-                    How does MindSpace join my meetings?
+                    ¿Cuál es el tamaño máximo permitido para los archivos
+                    adjuntos en el Registro Ciudadano?
                   </AccordionTrigger>
                   <AccordionContent>
-                    MindSpace automatically joins your scheduled meetings
-                    through calendar integration. Simply connect your calendar
-                    (Google Calendar, Outlook, etc.) and MindSpace will join
-                    meetings at the scheduled time. You can also manually invite
-                    MindSpace to any meeting by adding our bot email to your
-                    meeting participants.
+                    Los archivos correspondientes a: Selfie con documento de
+                    identidad en imagen y Documento de identidad escaneado en
+                    PDF deben tener un tamaño máximo de 512 KB cada uno. El
+                    sistema no permitirá la carga de archivos que superen este
+                    límite.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 2 */}
                 <AccordionItem value="item-2">
                   <AccordionTrigger className="text-left">
-                    What languages does MindSpace support?
+                    ¿Qué sucede si no se cumplen los requisitos establecidos en
+                    el Registro Ciudadano?
                   </AccordionTrigger>
                   <AccordionContent>
-                    MindSpace currently supports English, Spanish, French,
-                    German, Italian, Portuguese, and Japanese. We're
-                    continuously adding more languages based on user demand. The
-                    AI transcription and analysis work in the primary language
-                    of your meeting, with automatic language detection for
-                    mixed-language conversations.
+                    El incumplimiento de los requisitos de formato, tamaño o
+                    claridad podrá ocasionar el rechazo de la solicitud de
+                    registro, conforme a las políticas de validación
+                    institucional.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 3 */}
                 <AccordionItem value="item-3">
                   <AccordionTrigger className="text-left">
-                    Can I edit or delete meeting transcripts?
+                    ¿Necesito crear una cuenta para cada trámite?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes, you have full control over your meeting transcripts.
-                    You can edit any part of the transcript to correct errors,
-                    add context, or remove sensitive information. You can also
-                    delete entire transcripts or specific sections. All edits
-                    are tracked with timestamps, and you can revert changes at
-                    any time.
+                    No, una vez registrado, puede usar la misma cuenta para
+                    todos los trámites.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 4 */}
                 <AccordionItem value="item-4">
                   <AccordionTrigger className="text-left">
-                    How accurate is the AI transcription?
+                    ¿Puedo guardar mi solicitud de trámite y continuar después?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Our AI transcription achieves 95%+ accuracy in ideal
-                    conditions (clear audio, minimal background noise, standard
-                    accents). Accuracy may vary with poor audio quality, heavy
-                    accents, or technical terminology. We continuously improve
-                    our models, and you can always manually edit transcripts for
-                    perfect accuracy.
+                    No, el sistema no guarda el progreso de una solicitud
+                    incompleta, es decir si no se registra.
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* FAQ Item 5 */}
+                <AccordionItem value="item-4">
+                  <AccordionTrigger className="text-left">
+                    ¿Puedo realizar el trámite desde mi celular?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sí, el sistema es responsive y funciona en dispositivos
+                    móviles.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -113,7 +115,7 @@ export function FaqSection2() {
             <div className="flex flex-col gap-2">
               {/* Section Title */}
               <h2 className="text-foreground text-lg font-semibold md:text-xl">
-                Billing
+                Pagos y Facturación en línea
               </h2>
               {/* FAQ Accordion */}
               <Accordion
@@ -124,57 +126,60 @@ export function FaqSection2() {
                 {/* FAQ Item 1 */}
                 <AccordionItem value="billing-1">
                   <AccordionTrigger className="text-left">
-                    How does the free plan work?
+                    ¿Es seguro ingresar mis datos bancarios en la plataforma
+                    enlinea.azogues?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Our free plan includes up to 5 hours of meeting
-                    transcription per month, basic AI summaries, and access to
-                    core features. You can upgrade to paid plans anytime for
-                    unlimited transcription, advanced analytics, and premium
-                    features. No credit card required to start with the free
-                    plan.
+                    Sí, es completamente seguro. El GAD Municipal de Azogues
+                    delega en Placetopay la captura de información sensible. La
+                    plataforma cumple con la norma internacional PCI DSS y
+                    utiliza encriptación SSL de 256 bits. Tus datos bancarios
+                    están protegidos y no son almacenados.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 2 */}
                 <AccordionItem value="billing-2">
                   <AccordionTrigger className="text-left">
-                    Can I change my plan anytime?
+                    ¿Qué tarjetas puedo usar para los pagos en línea?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes, you can upgrade, downgrade, or cancel your plan at any
-                    time. Changes take effect immediately, and we'll prorate any
-                    charges. If you downgrade, you'll keep access to premium
-                    features until the end of your current billing period. No
-                    long-term contracts or cancellation fees.
+                    Pago corriente: Todas las tarjetas Visa, MasterCard, Diners,
+                    Discover y American Express de cualquier banco.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 3 */}
                 <AccordionItem value="billing-3">
                   <AccordionTrigger className="text-left">
-                    Do you offer annual billing discounts?
+                    ¿El pago tiene algún costo adicional?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes! We offer a 20% discount when you choose annual billing.
-                    This applies to all paid plans and can save you
-                    significantly over monthly billing. Annual plans are billed
-                    upfront and automatically renew unless cancelled. You can
-                    still change plans during your annual term.
+                    No, los pagos electrónicos a través de Placetopay no generan
+                    costos adicionales para el comprador.
                   </AccordionContent>
                 </AccordionItem>
 
                 {/* FAQ Item 4 */}
                 <AccordionItem value="billing-4">
                   <AccordionTrigger className="text-left">
-                    What payment methods do you accept?
+                    ¿Cuánto tiempo tengo para completar el pago?
                   </AccordionTrigger>
                   <AccordionContent>
-                    We accept all major credit cards (Visa, Mastercard, American
-                    Express, Discover), PayPal, and bank transfers for annual
-                    plans. All payments are processed securely through Stripe.
-                    We also support corporate invoicing for enterprise customers
-                    with net 30 payment terms.
+                    Una vez que ingreses a Placetopay, tienes aproximadamente 15
+                    minutos para completar la transacción antes de que la sesión
+                    expire.
+                  </AccordionContent>
+                </AccordionItem>
+
+                {/* FAQ Item 5 */}
+                <AccordionItem value="billing-4">
+                  <AccordionTrigger className="text-left">
+                    ¿Recibiré factura?
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Sí, el comprobante de pago que recibes sirve como factura
+                    electrónica de tu transacción.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
