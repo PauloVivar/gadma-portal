@@ -12,7 +12,7 @@ export function BentoGrid6() {
           {/* Main Heading */}
           <h2 className="heading-lg">
             A continuación se presentan varios posts relacionados con las
-            características de nuestra plataforma.
+            características de nuestra plataforma En Línea Azogues.
           </h2>
         </div>
 
@@ -21,14 +21,32 @@ export function BentoGrid6() {
           {/* Wide Feature Card - Top Left */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="public/plataforma-completa.png"
-              alt="plataforma-completa"
+              src="public/registro-ciudadano.png"
+              alt="registro-ciudadano"
               className="hidden h-auto w-full object-cover md:block md:h-[332px]"
             />
             <img
-              src="public/plataforma-completa.png"
-              alt="plataforma-completa-movile"
+              src="public/registro-ciudadano.png"
+              alt="registro-ciudadano-movile"
               className="block h-auto w-full md:hidden"
+            />
+            <CardContent className="flex flex-col gap-2 p-6">
+              <h3 className="text-foreground text-lg font-semibold">
+                Registro Ciudadano para pagos y trámites municipales en línea
+              </h3>
+              <p className="text-muted-foreground">
+                Realiza el Registro Ciudadano en 6 pasos, una ves verifiquemos
+                tu identidad accederas a consultas detalladas, pagos municipales
+                y gestión de trámites en línea.
+              </p>
+            </CardContent>
+          </Card>
+          {/* Regular Feature Card - Top Right */}
+          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
+            <img
+              src="/public/plataforma-completa.png"
+              alt="plataforma-completa"
+              className="h-auto w-full object-cover md:h-[332px]"
             />
             <CardContent className="flex flex-col gap-2 p-6">
               <h3 className="text-foreground text-lg font-semibold">
@@ -40,11 +58,11 @@ export function BentoGrid6() {
               </p>
             </CardContent>
           </Card>
-          {/* Regular Feature Card - Top Right */}
+          {/* Regular Feature Card - Bottom Left */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
             <img
               src="/public/historial-pagos.png"
-              alt="Universal Search"
+              alt="historial-pagos"
               className="h-auto w-full object-cover md:h-[332px]"
             />
             <CardContent className="flex flex-col gap-2 p-6">
@@ -57,28 +75,10 @@ export function BentoGrid6() {
               </p>
             </CardContent>
           </Card>
-          {/* Regular Feature Card - Bottom Left */}
-          <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
-            <img
-              src="/smart-tags.png"
-              alt="AI Meeting Notes"
-              className="h-auto w-full object-cover md:h-[332px]"
-            />
-            <CardContent className="flex flex-col gap-2 p-6">
-              <h3 className="text-foreground text-lg font-semibold">
-                Seguridad de tus datos
-              </h3>
-              <p className="text-muted-foreground">
-                Azogues en Línea opera con mecanismos de seguridad que protegen
-                tu información personal y sensible durante todo el proceso
-                digital.
-              </p>
-            </CardContent>
-          </Card>
           {/* Wide Feature Card - Bottom Right */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="/team-insights.png"
+              src="/puplic/historial-pagos.png"
               alt="Team Insights"
               className="hidden h-[332px] w-full object-cover md:block"
             />

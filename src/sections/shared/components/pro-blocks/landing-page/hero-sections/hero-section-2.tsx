@@ -69,7 +69,7 @@ export function HeroSection2() {
         </div>
 
         {/* Right Column */}
-        <div className="w-full flex-1">
+        <div className="w-full flex-1 border-2 border-black shadow-2xl rounded-xl">
           <AspectRatio ratio={1 / 1}>
             <img
               src="/public/san-francisco.jpg"
