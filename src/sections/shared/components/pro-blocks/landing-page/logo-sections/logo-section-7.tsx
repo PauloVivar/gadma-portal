@@ -1,5 +1,6 @@
 import { PlaceholderLogo } from '@/sections/shared/components/pro-blocks/placeholder-logo'
 import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+//import { PlaceholderLogo } from '../../placeholder-logo'
 
 const logosData = [
   {
@@ -57,7 +58,7 @@ export function LogoSection10() {
                 return (
                   <div
                     key={uniqueKey}
-                    className="w-48 flex-shrink-0 place-items-center"
+                    className="w-48 shrink-0 place-items-center"
                   >
                     <LogoComponent className="w-36" />
                   </div>

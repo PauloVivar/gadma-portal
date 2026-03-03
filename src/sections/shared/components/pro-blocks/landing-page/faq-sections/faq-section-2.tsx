@@ -20,9 +20,9 @@ export function FaqSection2() {
             {/* Category Tag */}
             <Tagline className="bg-red-300">FAQ</Tagline>
             {/* Main Title */}
-            <h1 id="faq-heading" className="heading-lg text-foreground">
+            <h2 id="faq-heading" className="heading-lg text-foreground">
               Encuentre respuestas a preguntas frecuentes
-            </h1>
+            </h2>
             {/* Section Description */}
             <p className="text-muted-foreground">
               Hemos recopilado la información más importante para ayudarte a
@@ -173,7 +173,7 @@ export function FaqSection2() {
                 </AccordionItem>
 
                 {/* FAQ Item 5 */}
-                <AccordionItem value="billing-4">
+                <AccordionItem value="billing-5">
                   <AccordionTrigger className="text-left">
                     ¿Recibiré factura?
                   </AccordionTrigger>

@@ -65,7 +65,11 @@ export function LpNavbar1() {
         {isMenuOpen && (
           <div className="flex w-full flex-col justify-end gap-5 pb-2.5 md:hidden">
             <NavMenuItems />
-            <a href="#pricing">
+            <a
+              href="https://enlinea.azogues.gob.ec/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button className="w-full">Iniciar Sesión</Button>
             </a>
           </div>

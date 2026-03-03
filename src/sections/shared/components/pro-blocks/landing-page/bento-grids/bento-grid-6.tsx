@@ -21,12 +21,12 @@ export function BentoGrid6() {
           {/* Wide Feature Card - Top Left */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="/registro-ciudadano.png"
+              src="/images/registro-ciudadano.png"
               alt="registro-ciudadano"
               className="hidden h-auto w-full object-cover md:block md:h-[332px]"
             />
             <img
-              src="/public/registro-ciudadano.png"
+              src="/images/registro-ciudadano.png"
               alt="registro-ciudadano-movile"
               className="block h-auto w-full md:hidden"
             />
@@ -44,7 +44,7 @@ export function BentoGrid6() {
           {/* Regular Feature Card - Top Right */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
             <img
-              src="/public/plataforma-completa.png"
+              src="/images/plataforma-completa.png"
               alt="plataforma-completa"
               className="h-auto w-full object-cover md:h-[332px]"
             />
@@ -61,7 +61,7 @@ export function BentoGrid6() {
           {/* Regular Feature Card - Bottom Left */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-1">
             <img
-              src="/public/historial-pagos.png"
+              src="/images/historial-pagos.png"
               alt="historial-pagos"
               className="h-auto w-full object-cover md:h-[332px]"
             />
@@ -78,13 +78,13 @@ export function BentoGrid6() {
           {/* Wide Feature Card - Bottom Right */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="/historial-pagos.png"
-              alt="Team Insights"
+              src="/images/historial-pagos.png"
+              alt="historial-pagos"
               className="hidden h-[332px] w-full object-cover md:block"
             />
             <img
-              src="/team-insights_mobile.png"
-              alt="Team Insights"
+              src="/images/historial-pagos.png"
+              alt="historial-pagos-movile"
               className="block h-auto w-full object-cover md:hidden md:h-[332px]"
             />
             <CardContent className="flex flex-col gap-2 p-6">

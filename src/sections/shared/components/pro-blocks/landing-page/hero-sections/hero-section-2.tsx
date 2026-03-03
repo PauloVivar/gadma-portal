@@ -72,8 +72,8 @@ export function HeroSection2() {
         <div className="w-full flex-1 border-2 border-black shadow-2xl rounded-xl">
           <AspectRatio ratio={1 / 1}>
             <img
-              src="/public/san-francisco.jpg"
-              alt="San Francisco"
+              src="/images/san-francisco.jpg"
+              alt="san-francisco"
               className="h-full w-full rounded-xl object-cover"
             />
           </AspectRatio>
