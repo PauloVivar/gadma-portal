@@ -1,6 +1,5 @@
-import { PlaceholderLogo } from '@/sections/shared/components/pro-blocks/placeholder-logo'
+import { PlaceholderLogo } from '@/sections/shared/components/pro-blocks'
 import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
-//import { PlaceholderLogo } from '../../placeholder-logo'
 
 const logosData = [
   {

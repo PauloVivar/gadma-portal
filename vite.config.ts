@@ -8,6 +8,18 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-    },
-  },
+      '@/ui': path.resolve(
+        __dirname,
+        './src/sections/shared/components/ui-custom'
+      ),
+      '@/pro-blocks': path.resolve(
+        __dirname,
+        './src/sections/shared/components/pro-blocks'
+      ),
+      '@/landing': path.resolve(
+        __dirname,
+        './src/sections/shared/components/pro-blocks/landing-page'
+      )
+    }
+  }
 })
