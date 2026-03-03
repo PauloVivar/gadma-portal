@@ -1,7 +1,7 @@
-import { Button } from '@/sections/shared/components/ui-custom/button'
 import { Check, ArrowRight } from 'lucide-react'
-import { AspectRatio } from '@/sections/shared/components/ui-custom/aspect-ratio'
 import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+import { Button } from '../../../ui/button'
+import { AspectRatio } from '../../../ui/aspect-ratio'
 
 export function HeroSection2() {
   return (

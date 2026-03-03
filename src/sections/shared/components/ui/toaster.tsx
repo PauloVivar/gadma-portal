@@ -1,5 +1,3 @@
-'use client'
-
 import { useToast } from '@/sections/shared/hooks/use-toast'
 import {
   Toast,

@@ -1,7 +1,4 @@
-import {
-  Avatar,
-  AvatarImage
-} from '@/sections/shared/components/ui-custom/avatar'
+import { Avatar, AvatarImage } from '../../../ui/avatar'
 
 interface TestimonialsSection1Props {
   quote?: string
@@ -14,7 +11,7 @@ export default function TestimonialsSection1({
   quote = 'Olvídate de las filas y el papeleo. Con Enlinea Azogues puedes consultar, pagar y gestionar tus trámites desde casa, de forma segura y ágil.',
   authorName = 'Gad Municipal de Azogues',
   authorRole = 'Departamento de Sistemas',
-  avatarSrc = '/public/azogues-escudo.svg'
+  avatarSrc = '/azogues-escudo.svg'
 }: TestimonialsSection1Props) {
   return (
     <section

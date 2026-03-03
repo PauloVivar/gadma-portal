@@ -1,5 +1,5 @@
-import { Card, CardContent } from '@/sections/shared/components/ui-custom/card'
 import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+import { Card, CardContent } from '../../../ui/card'
 
 export function StatsSection4() {
   return (

@@ -1,9 +1,7 @@
-'use client'
-
 import { Logo } from '@/sections/shared/components/pro-blocks/logo'
-import { Button } from '@/sections/shared/components/ui-custom/button'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import { Button } from '../../../ui/button'
 
 const MENU_ITEMS = [
   { label: 'Posts', href: '#features' },

@@ -16,19 +16,19 @@ function App() {
       <HeroSection2 />
       <LogoSection10 />
       <TestimonialsSection1
-        quote="Olvídate de las filas y el papeleo. Con enlinea.azogues puedes consultar, pagar y gestionar tus trámites desde casa, de forma segura y ágil."
+        quote='Olvídate de las filas y el papeleo. Con "Azogues en Línea" puedes consultar, pagar y gestionar tus trámites desde casa, de forma segura y ágil.'
         authorName="Gad Municipal de Azogues"
         authorRole="Departamento de Sistemas"
-        avatarSrc="/public/azogues-escudo.svg"
+        avatarSrc="/azogues-escudo.svg"
       />
       <BentoGrid6 />
       <FeatureSection9 />
       {/* <StatsSection4 /> */}
       <TestimonialsSection1
-        quote="El Municipio de Azogues ahora está a un clic de distancia. Con enlinea.azogues, realiza trámites y pagos en línea y disfruta de una atención más rápida y moderna."
+        quote='El Municipio de Azogues ahora está a un clic de distancia. Con "Azogues en Línea", realiza trámites y pagos en línea y disfruta de una atención más rápida y moderna.'
         authorName="Gad Municipal de Azogues"
         authorRole="Departamento de Sistemas"
-        avatarSrc="/public/azogues-escudo.svg"
+        avatarSrc="/azogues-escudo.svg"
       />
       {/* <PricingSection3 /> */}
       <FaqSection2 />

@@ -1,5 +1,5 @@
-import { Card, CardContent } from '@/sections/shared/components/ui-custom/card'
 import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+import { Card, CardContent } from '../../../ui/card'
 
 export function BentoGrid6() {
   return (
@@ -12,7 +12,7 @@ export function BentoGrid6() {
           {/* Main Heading */}
           <h2 className="heading-lg">
             A continuación se presentan varios posts relacionados con las
-            características de nuestra plataforma En Línea Azogues.
+            características de nuestra plataforma "Azogues en Línea".
           </h2>
         </div>
 
@@ -21,12 +21,12 @@ export function BentoGrid6() {
           {/* Wide Feature Card - Top Left */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="public/registro-ciudadano.png"
+              src="/registro-ciudadano.png"
               alt="registro-ciudadano"
               className="hidden h-auto w-full object-cover md:block md:h-[332px]"
             />
             <img
-              src="public/registro-ciudadano.png"
+              src="/public/registro-ciudadano.png"
               alt="registro-ciudadano-movile"
               className="block h-auto w-full md:hidden"
             />
@@ -78,7 +78,7 @@ export function BentoGrid6() {
           {/* Wide Feature Card - Bottom Right */}
           <Card className="bg-muted/80 gap-0 overflow-hidden rounded-xl p-0 lg:col-span-2">
             <img
-              src="/puplic/historial-pagos.png"
+              src="/historial-pagos.png"
               alt="Team Insights"
               className="hidden h-[332px] w-full object-cover md:block"
             />

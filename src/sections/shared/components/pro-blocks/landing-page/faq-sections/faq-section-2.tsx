@@ -1,10 +1,10 @@
+import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger
-} from '@/sections/shared/components/ui-custom/accordion'
-import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+} from '../../../ui/accordion'
 
 export function FaqSection2() {
   return (
@@ -127,7 +127,7 @@ export function FaqSection2() {
                 <AccordionItem value="billing-1">
                   <AccordionTrigger className="text-left">
                     ¿Es seguro ingresar mis datos bancarios en la plataforma
-                    enlinea.azogues?
+                    "Azogues en Línea"?
                   </AccordionTrigger>
                   <AccordionContent>
                     Sí, es completamente seguro. El GAD Municipal de Azogues

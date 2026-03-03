@@ -1,5 +1,5 @@
 import { Logo } from '@/sections/shared/components/pro-blocks/logo'
-import { Separator } from '@/sections/shared/components/ui-custom/separator'
+import { Separator } from '../../../ui/separator'
 
 export function Footer1() {
   return (

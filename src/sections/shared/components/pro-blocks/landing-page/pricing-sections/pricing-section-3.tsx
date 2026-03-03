@@ -1,17 +1,14 @@
-import { Card, CardContent } from '@/sections/shared/components/ui-custom/card'
-import {
-  Button,
-  buttonVariants
-} from '@/sections/shared/components/ui-custom/button'
 import { Check, Info } from 'lucide-react'
+import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
+import { VariantProps } from 'class-variance-authority'
+import { Button, buttonVariants } from '../../../ui/button'
 import {
   Tooltip,
   TooltipContent,
-  TooltipTrigger,
-  TooltipProvider
-} from '@/sections/shared/components/ui-custom/tooltip'
-import { Tagline } from '@/sections/shared/components/pro-blocks/landing-page/tagline'
-import { VariantProps } from 'class-variance-authority'
+  TooltipProvider,
+  TooltipTrigger
+} from '../../../ui/tooltip'
+import { Card, CardContent } from '../../../ui/card'
 
 const pricingData = {
   plans: [
