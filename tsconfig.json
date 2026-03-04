@@ -20,9 +20,7 @@
       "@/*": ["./src/*"],
       "@/ui": ["./src/sections/shared/components/ui-custom/index.ts"],
       "@/pro-blocks": ["./src/sections/shared/components/pro-blocks/index.ts"],
-      "@/landing": [
-        "./src/sections/shared/components/pro-blocks/landing-page/index.ts"
-      ]
+      "@/landing": ["src/sections/landing/components/landing-page/index.ts"]
     }
   },
   "include": ["src"],
