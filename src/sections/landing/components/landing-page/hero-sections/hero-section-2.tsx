@@ -37,7 +37,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Información sobre el registro ciudadano
+                Como realizar el registro ciudadano
               </span>
             </div>
 
@@ -46,7 +46,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Dudas y soporte sobre trámites municipales
+                Como realizar el pago de impuestos municipales en línea
               </span>
             </div>
 
@@ -55,7 +55,7 @@ export function HeroSection2() {
                 <Check className="text-primary h-5 w-5" />
               </div>
               <span className="text-card-foreground text-base leading-6 font-medium">
-                Seguimiento de trámites en línea
+                Dudas, soporte y seguimiento sobre trámites municipales
               </span>
             </div>
           </div>
@@ -71,13 +71,19 @@ export function HeroSection2() {
         </div>
 
         {/* Right Column */}
-        <div className="w-full flex-1 border-2 border-black shadow-2xl rounded-xl">
+        <div className="w-full flex-1 shadow-sm rounded-xl border border-neutral-200">
           <AspectRatio ratio={1 / 1}>
-            <img
-              src="/images/san-francisco.jpg"
-              alt="san-francisco"
-              className="h-full w-full rounded-xl object-cover"
-            />
+            <a
+              href="https://enlinea.azogues.gob.ec/login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/paga-tus-impuestos-w.png"
+                alt="san-francisco"
+                className="h-full w-full rounded-xl object-cover"
+              />
+            </a>
           </AspectRatio>
         </div>
       </div>

@@ -23,7 +23,7 @@ export function FeatureSection9() {
             Registrate en 5 minutos
           </h2>
           <p className="text-muted-foreground text-base">
-            El Registro Ciudadano en **Azogues en Línea** es un proceso seguro y
+            El Registro Ciudadano en Azogues en Línea es un proceso seguro y
             validado que te permitirá acceder a trámites, consultas y pagos
             municipales en línea. La activación de tu cuenta se realiza en un
             plazo de 24 a 48 horas, una vez verificada la información.

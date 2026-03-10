@@ -13,7 +13,7 @@ export function BentoGrid6() {
           {/* Main Heading */}
           <h2 className="heading-lg">
             A continuación se presentan varios posts relacionados con las
-            características de nuestra plataforma **Azogues en Línea**.
+            características de nuestra plataforma Azogues en Línea.
           </h2>
         </div>
 

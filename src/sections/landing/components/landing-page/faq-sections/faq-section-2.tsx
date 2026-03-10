@@ -127,7 +127,7 @@ export function FaqSection2() {
                 <AccordionItem value="billing-1">
                   <AccordionTrigger className="text-left">
                     ¿Es seguro ingresar mis datos bancarios en la plataforma
-                    **Azogues en Línea**?
+                    Azogues en Línea?
                   </AccordionTrigger>
                   <AccordionContent>
                     Sí, es completamente seguro. El GAD Municipal de Azogues

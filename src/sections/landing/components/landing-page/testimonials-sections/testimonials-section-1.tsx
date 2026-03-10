@@ -23,7 +23,7 @@ export default function TestimonialsSection1({
         {/* Testimonial Quote */}
         <blockquote
           id="testimonial-title"
-          className="text-center text-xl font-medium text-white md:text-3xl"
+          className="text-center text-xl font-bold text-black md:text-3xl"
         >
           &quot;{quote}&quot;
         </blockquote>
